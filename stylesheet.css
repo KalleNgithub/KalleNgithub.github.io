@@ -94,16 +94,16 @@ body {
 	}
 
 
-@media (max-width:960px){
-	body .content h1{
+@media (max-width:960px) {
+	body .content h1 {
 		font-size: 75px;
 	}
-	#kalle{
+	#kalle {
 		width: 100px;
 		height: auto;
 		right: 0;
 	}
-	figcaption{
+	figcaption {
 		display: none;
 	}
 	
