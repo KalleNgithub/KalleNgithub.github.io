@@ -126,7 +126,7 @@ body {
 	#cube >video {
 		width: 75%;
 	}
-	#cube > p {
+	#cube >p {
 		width: 50%;
 	}	
 	#camera_wrap_1 {
@@ -137,7 +137,7 @@ body {
 	#chessimg {
 		width: 100%;
 	}
-	#chess > p {
+	#chess >p {
 		width: 50%;
 	}
 }
