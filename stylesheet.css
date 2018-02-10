@@ -80,6 +80,8 @@ body {
 	}
 	
 	#camera_wrap_1 {
+		width: 75%;
+		height: auto;
 	}
 	
 	#cube {
