@@ -85,21 +85,37 @@ body {
 	#cube {
 		margin-bottom: 50vh;
 		}
+	#cube > p {
+		width: 33%;
+	}
 	#chess {
 		margin-top: 50vh;
 		float: left;
 		text-align: left;
 	}
+	#chess > p {
+		width: 33%;
+	}
 	#chessimg {
 	}
 
+@media (max-width:1300px){
+	#kalle {
+		width: 15%;
+		height: auto;
+		right: 0;
+	}
+	figcaption {
+		display: none;
+	}
+}
 
 @media (max-width:960px) {
 	body .content h1 {
 		font-size: 75px;
 	}
 	#kalle {
-		width: 100px;
+		width: 10%;
 		height: auto;
 		right: 0;
 	}
@@ -110,7 +126,9 @@ body {
 	#cube >video {
 		width: 75%;
 	}
-	
+	#cube > p {
+		width: 50%;
+	}	
 	#camera_wrap_1 {
 		width: 75%;
 		height: auto;
@@ -118,5 +136,8 @@ body {
 	
 	#chessimg {
 		width: 100%;
+	}
+	#chess > p {
+		width: 50%;
 	}
 }
