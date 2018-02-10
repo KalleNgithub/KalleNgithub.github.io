@@ -47,8 +47,8 @@ body {
   }
 	#kalle {
 		position: fixed;
-		height: 100%;
-		width: auto;
+		width: 25%;
+		height: auto;
 		top: 0px;
 		right: 70px;
 		z-index: -100;
@@ -63,7 +63,7 @@ body {
 	}
 	nav {
 	width:100%;
-	padding: 100px 100px 100px;
+	padding: 100px 60px 100px;
 	height:4em;
 	position:fixed;
 	display:block;
