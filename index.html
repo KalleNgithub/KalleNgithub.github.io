@@ -1,6 +1,6 @@
 <html><head>
 	<meta charset="utf-8">
-	<title>Kalle</title>
+	<title>Kalle, valematemaatikko</title>
 	<link href="stylesheet.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" id="camera-css" href="camera.css" type="text/css" media="all">
 	
@@ -22,19 +22,20 @@
 	</head>
   <body>
 	<nav><a href="#top" class="smoothScroll">Up</a></nav>
-    <div class="content" id="top">
+    <div class="intro" id="top">
 		<figure id="kallefig">
 		<img id="kalle" src="images/kalle.png" width="395">
 		<figcaption> </figcaption>
 		</figure>
 		<h1>Kalle</h1>
+		<h5>varastomies ja valematemaatikko</h5>
 		
 		<p>I lived in Naantali.</p>
 		<p>Now I don't live there.</p>
 		<p>I now live in Turku.</p>
 		<p>I went to a big school for an acceptable number of years.</p>
-		<p>I still go there...</p>
-		<p>I mostly do math, computer science and a little bit of statistics and economics.</p>
+		<p>Now I don't.</p>
+		<p>I mostly do <a href="#portfolio" class="smoothScroll">math, computer science and a little bit of statistics and economics</a>.</p>
 		<p>Actually I mostly do something else.</p>
 		<p>Like solving my <a href="#cube" class="smoothScroll">Rubik's cube</a>.</p>
 		<p>Or fix one of my <a href="#bike" class="smoothScroll">3 bikes</a> that aren't even broken.</p>
@@ -44,8 +45,9 @@
 		<p><span title="etunimi_sukunimi@hotmail.com">e-mail</span></p>
 		<p>You can just hover over the yellow text.</p>
 		<p>Unless you are on a tablet or other touch device. Then you just can't.</p>
-	</div>	
-		<div id="cube">
+	</div>
+	
+		<div class="content" id="cube">
 			<video controls="" width="720" height="480">
 				<source alt="super fast speed cubing" src="images/solve1.mp4" type="video/mp4">
 				Your browser does not support the video tag.
@@ -53,7 +55,7 @@
 			<p>The solve begins at 20s. I chose this clip because the cube was mostly visible during a relatively large portion of the video.</p>
 		</div>
 	  
-		<div id="bike">
+		<div class="content" id="bike">
 			<div class="camera_wrap camera_orange_skin" id="camera_wrap_1">
 				<div data-src="images/leprincepad1.jpg"><div class="camera_caption fadeFromBottom">
 						<a href="http://leprince.fi/">LePrince.</a>
@@ -82,9 +84,27 @@
 		</div>
 		
 		
-		<div id="chess">
+		<div class="content" id="chess">
 			<img id="chessimg" src="images/kingsgambit.gif">
 			<p>This gif is never at the beginning when you find it. I was playing white here.</p>
+		</div>
+
+		<div class="content" id="portfolio">
+			<h2>"Portfolio"</h2>
+			<div class="portfolio-container">
+				<div class="portfolio-item">
+					<a href="images/tree_pointcloud.gif" target="_blank">
+						<img id="silvere" src="images/tree_pointcloud.gif">
+					</a>	
+					<p> This one time I wrote a Python script that detects the location of trees in a pointcloud file.</p>
+				</div>
+				<div class="portfolio-item">
+					<a href="images/tabletit.jpeg">
+						<img id="silvere" src="images/tabletit.jpeg">
+					</a>
+					<p> I bought a tablet once. After fitting a regression model to data I <a href="https://scrapy.org/">scraped</a> off the web, some iPads turned out to be reasonably priced. I still think nobody needs 1TB of storage on their tablet. </p>
+				</div>
+			</div>
 		</div>
     
 	
